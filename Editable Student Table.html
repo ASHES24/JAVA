@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Student Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Student Management System</h2>
+
+        <div class="input-fields">
+            <input type="text" id="nameInput" placeholder="Name">
+            <input type="text" id="rollInput" placeholder="Roll">
+            <input type="text" id="deptInput" placeholder="Department">
+            <button id="addBtn">Add Student</button>
+        </div>
+
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Roll</th>
+                    <th>Department</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Student rows will appear here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
